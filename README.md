@@ -1,1 +1,1 @@
-# Strings-and-collections
+Строки и коллекции
