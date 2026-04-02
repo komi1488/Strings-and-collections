@@ -23,7 +23,7 @@ public class FileProcessor {
 				File.WriteAllText(filePath, content, Encoding.UTF8);
 				Console.WriteLine($"The file has been processed: {filePath}");
 			} catch (Exception ex) {
-				Console.WriteLine($"File processing error {filePath}: {ex.Message}");
+		  Console.WriteLine($"File processing error {filePath}: {ex.Message}");
 			}
 		}
 	}
